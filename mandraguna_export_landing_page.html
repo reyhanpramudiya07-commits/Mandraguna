@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. MANDRAGUNA PUSAKA INDONESIA | Premium Organic Fertilizer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f2fbf5',
+                            100: '#e1f6e8',
+                            200: '#c4ebd3',
+                            300: '#96d9b4',
+                            400: '#61c08f',
+                            500: '#3ba370',
+                            600: '#2a8256',
+                            700: '#236846',
+                            800: '#1e5339',
+                            900: '#194430',
+                            950: '#0e261b',
+                        },
+                        accent: {
+                            500: '#f59e0b', // Amber for highlights like rice/wheat
+                            600: '#d97706',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-pattern {
+            background-color: #0e261b;
+            background-image: radial-gradient(#2a8256 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md shadow-sm" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <!-- Logo Icon (Wheat/Leaf abstract) -->
+                    <div class="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-accent-500 shadow-lg">
+                        <i class="fa-solid fa-seedling text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-serif font-bold text-xl tracking-tight text-brand-900 leading-tight">MANDRAGUNA</h1>
+                        <p class="text-[0.65rem] tracking-widest text-brand-600 uppercase font-semibold">Pusaka Indonesia</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors">About Us</a>
+                    <a href="#product" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors">Products</a>
+                    <a href="#application" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors">Application</a>
+                    <a href="#contact" class="px-5 py-2.5 bg-brand-600 text-white text-sm font-semibold rounded-full hover:bg-brand-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        Export Inquiry
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-brand-600 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-4 pt-2 pb-6 space-y-1 shadow-lg">
+                <a href="#about" class="block px-3 py-3 text-base font-medium text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-md">About Us</a>
+                <a href="#product" class="block px-3 py-3 text-base font-medium text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-md">Products</a>
+                <a href="#application" class="block px-3 py-3 text-base font-medium text-gray-700 hover:bg-brand-50 hover:text-brand-600 rounded-md">Application</a>
+                <a href="#contact" class="block px-3 py-3 text-base font-medium text-brand-600 bg-brand-50 rounded-md">Contact for Export</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden hero-pattern">
+        <!-- Decorative blobs -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+            <div class="absolute -top-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-brand-500/20 blur-3xl"></div>
+            <div class="absolute bottom-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-accent-500/10 blur-3xl"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-800/50 border border-brand-500 text-accent-500 text-xs font-bold tracking-widest uppercase mb-6 backdrop-blur-sm">
+                Global Export Available
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight">
+                Premium Amino Acid <br class="hidden md:block" />
+                <span class="text-brand-300">Organic Fertilizer</span>
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10 font-light">
+                Sustainably crafted in Indonesia. We transform rich natural resources into high-value agricultural solutions, ensuring fertile soil and maximum crop yields worldwide.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="px-8 py-4 bg-brand-500 text-white font-bold rounded-full hover:bg-brand-400 transition-all shadow-[0_0_20px_rgba(59,163,112,0.4)] hover:shadow-[0_0_30px_rgba(59,163,112,0.6)] transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                    Contact for Export <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#product" class="px-8 py-4 bg-transparent text-white font-bold rounded-full border-2 border-white/30 hover:bg-white/10 transition-all flex items-center justify-center">
+                    Discover the Product
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Waste to Wealth) -->
+    <section id="about" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <!-- Image side -->
+                <div class="relative rounded-2xl overflow-hidden shadow-2xl group">
+                    <div class="absolute inset-0 bg-brand-900/20 group-hover:bg-transparent transition-all duration-500 z-10"></div>
+                    <!-- Using placeholder with styling to represent environmental transformation -->
+                    <div class="h-96 w-full bg-gradient-to-br from-brand-700 to-accent-600 flex flex-col items-center justify-center text-white p-8 text-center relative overflow-hidden">
+                        <div class="absolute inset-0 opacity-20" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+                        <i class="fa-solid fa-leaf text-6xl mb-4 z-20 shadow-sm"></i>
+                        <h3 class="text-2xl font-serif font-bold z-20">Transforming Nature</h3>
+                        <p class="mt-2 text-brand-50 z-20">Restoring ecosystems, empowering agriculture.</p>
+                    </div>
+                    <!-- Floating badge -->
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl z-20 hidden md:block border border-gray-100">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-accent-100 text-accent-600 rounded-full flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-recycle"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500 font-medium">Sustainable Solution</p>
+                                <p class="font-bold text-gray-900">Zero Waste Initiative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text side -->
+                <div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-600 font-semibold text-sm mb-6">
+                        <i class="fa-solid fa-book-open"></i> Our Story
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6">
+                        From Environmental Crisis to <span class="text-brand-600">Agricultural Gold</span>
+                    </h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        In Sukaregang, Garut, the leather tanning industry left behind a significant environmental footprint, polluting rivers and affecting local water supplies. 
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        <strong>PT. Mandraguna Pusaka Indonesia</strong> saw an opportunity where others saw a problem. We innovatively process leather tanning waste—specifically rich animal fats—converting it into a high-value organic liquid fertilizer packed with amino acids.
+                    </p>
+                    <div class="bg-gray-50 border-l-4 border-brand-500 p-6 rounded-r-lg">
+                        <p class="text-gray-700 italic font-medium">
+                            "By resolving a decades-old pollution issue, we create superior organic products that promote healthier crops, richer soil, and a sustainable future for global agriculture."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features Section -->
+    <section id="product" class="py-20 bg-brand-900 relative overflow-hidden text-white">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'20\' height=\'20\' viewBox=\'0 0 20 20\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\' fill-rule=\'evenodd\'%3E%3Ccircle cx=\'3\' cy=\'3\' r=\'3\'/%3E%3Ccircle cx=\'13\' cy=\'13\' r=\'3\'/%3E%3C/g%3E%3C/svg%3E');"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-accent-500 font-bold tracking-wider uppercase text-sm mb-2 block">Flagship Product</span>
+                <h2 class="text-3xl md:text-5xl font-serif font-bold mb-6">MANDRAGUNA GROW</h2>
+                <p class="text-brand-100 text-lg">
+                    A revolutionary liquid organic fertilizer derived from animal protein, packed with essential amino acids to maximize plant nutrition and immunity.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Complete Nutrients</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Provides a comprehensive profile of both macro and micro elements vital for plant growth.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-dna"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Rich in Amino Acids</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">High in organic complexes and enzymes that directly enhance chlorophyll and photosynthesis.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Soil Restoration</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Increases beneficial soil microbe activity, restoring physical fertility naturally.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-chart-line-down"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Reduces Chemicals</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Gradually reduces the dependency on synthetic chemical fertilizers by 50% to 100%.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Boosts Immunity</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Significantly improves plant metabolism, making them highly resilient to pests and diseases.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Healthier Crops</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Produces organic, healthier food with significantly lower chemical residues.</p>
+                </div>
+
+                <!-- Feature 7 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Superior Quality</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Enhances visual appearance, taste, color, and aroma of the final harvest.</p>
+                </div>
+
+                <!-- Feature 8 -->
+                <div class="bg-brand-800/50 backdrop-blur border border-brand-700 p-6 rounded-2xl hover:bg-brand-700/50 transition-all duration-300">
+                    <div class="w-12 h-12 bg-brand-600 rounded-lg flex items-center justify-center text-xl mb-4 text-white">
+                        <i class="fa-solid fa-box-open"></i>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Longer Shelf Life</h4>
+                    <p class="text-brand-100 text-sm leading-relaxed">Improves the durability and storage life of agricultural produce post-harvest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section id="application" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">Versatile Application</h2>
+                <p class="text-gray-600">MANDRAGUNA GROW is formulated for maximum efficacy across various crop types. Perfect for large-scale agricultural exports.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Crop 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow group">
+                    <div class="h-40 bg-brand-100 flex items-center justify-center group-hover:bg-brand-200 transition-colors">
+                        <i class="fa-solid fa-wheat-awn text-5xl text-brand-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Food Crops</h4>
+                        <p class="text-sm text-gray-600 mb-4">Rice, Corn, Wheat.</p>
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Seed soaking: 10ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Vegetative: 10ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Generative: 20ml/L</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Crop 2 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow group">
+                    <div class="h-40 bg-accent-50 flex items-center justify-center group-hover:bg-accent-100 transition-colors">
+                        <i class="fa-solid fa-carrot text-5xl text-accent-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Tubers</h4>
+                        <p class="text-sm text-gray-600 mb-4">Potatoes, Cassava, Sweet Potatoes.</p>
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Vegetative: 10ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Generative: 20ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Apply every 10-14 days</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Crop 3 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow group">
+                    <div class="h-40 bg-brand-100 flex items-center justify-center group-hover:bg-brand-200 transition-colors">
+                        <i class="fa-solid fa-apple-whole text-5xl text-brand-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Fruits & Veggies</h4>
+                        <p class="text-sm text-gray-600 mb-4">Horticulture, leafy greens, orchard fruits.</p>
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Vegetative: 5ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Generative: 10ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Double dose for soil drench</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Crop 4 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow group">
+                    <div class="h-40 bg-accent-50 flex items-center justify-center group-hover:bg-accent-100 transition-colors">
+                        <i class="fa-solid fa-tree text-5xl text-accent-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Plantations</h4>
+                        <p class="text-sm text-gray-600 mb-4">Palm oil, Rubber, Coffee, Cacao.</p>
+                        <ul class="text-sm text-gray-500 space-y-2">
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Vegetative: 10ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Generative: 20ml/L</li>
+                            <li><i class="fa-solid fa-check text-brand-500 mr-2"></i> Ideal spraying: Morning/Late Afternoon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Export / Contact Section -->
+    <section id="contact" class="py-20 bg-brand-600 relative overflow-hidden">
+        <!-- Abstract shapes -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-brand-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-brand-800 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+        
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+                <!-- Left side Info -->
+                <div class="p-10 md:w-2/5 bg-brand-900 text-white flex flex-col justify-center">
+                    <h3 class="text-2xl font-serif font-bold mb-2">Global Partnerships</h3>
+                    <p class="text-brand-200 text-sm mb-8">We are ready to fulfill international demands. Partner with us to bring sustainable organic farming to your region.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 w-10 h-10 rounded-full bg-brand-800 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-map-location-dot text-accent-500"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-brand-300 font-semibold uppercase tracking-wider mb-1">Headquarters</p>
+                                <p class="text-sm text-brand-50 font-light leading-relaxed">
+                                    Jl. Gatot Subroto Rt 01 Rw 02<br>
+                                    Desa Suci Kec. Karangpawitan<br>
+                                    Kab. Garut, Jawa Barat<br>
+                                    Indonesia
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right side Contact CTA -->
+                <div class="p-10 md:w-3/5 bg-white flex flex-col justify-center text-center md:text-left">
+                    <div class="inline-flex items-center justify-center md:justify-start gap-2 text-brand-600 font-bold mb-4 uppercase tracking-widest text-sm">
+                        <span class="w-8 h-0.5 bg-brand-600"></span>
+                        For Export Inquiries
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-8">Let's Grow Together. <br><span class="text-brand-600">Contact Us Today.</span></h2>
+                    
+                    <div class="flex flex-col space-y-4">
+                        <!-- WhatsApp Button -->
+                        <a href="https://wa.me/6281325554292" target="_blank" class="w-full flex items-center justify-center md:justify-start gap-4 p-4 rounded-xl border-2 border-green-500 text-green-600 hover:bg-green-50 transition-all font-bold text-lg group">
+                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center group-hover:bg-green-500 group-hover:text-white transition-colors">
+                                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            </div>
+                            <div class="text-left">
+                                <span class="block text-xs uppercase tracking-wider text-gray-500 font-medium">WhatsApp Direct</span>
+                                +62 813-2555-4292
+                            </div>
+                        </a>
+                        
+                        <!-- Email Button -->
+                        <a href="mailto:Reyhanpramudiya07@gmail.com" class="w-full flex items-center justify-center md:justify-start gap-4 p-4 rounded-xl border-2 border-brand-500 text-brand-600 hover:bg-brand-50 transition-all font-bold text-lg group">
+                            <div class="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center group-hover:bg-brand-500 group-hover:text-white transition-colors">
+                                <i class="fa-solid fa-envelope text-xl"></i>
+                            </div>
+                            <div class="text-left overflow-hidden">
+                                <span class="block text-xs uppercase tracking-wider text-gray-500 font-medium">Email Us</span>
+                                <span class="truncate block w-full">Reyhanpramudiya07@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-brand-600 rounded flex items-center justify-center text-white">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <div>
+                        <h2 class="font-serif font-bold text-white tracking-wider">MANDRAGUNA</h2>
+                    </div>
+                </div>
+                
+                <p class="text-sm text-center md:text-left">
+                    &copy; <span id="year"></span> PT. MANDRAGUNA PUSAKA INDONESIA. All rights reserved.<br>
+                    <span class="text-xs text-gray-500">Izin Edar Kementrian Pertanian: 02.02.2022.897</span>
+                </p>
+                
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-600 hover:text-white transition-colors">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-600 hover:text-white transition-colors">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.remove('py-2');
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.classList.add('py-2');
+            }
+        });
+    </script>
+</body>
+</html>
